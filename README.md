@@ -12,10 +12,10 @@ launch ──▶ bonding curve ──▶ graduation ──▶ locked Uniswap v4 
 ## How it works
 
 **1. Every trade funds its own listing.**
-Part of Eden's fee on every trade of a token goes into that token's perps fund. The fund belongs to the token, not to a general pot, so a token's community builds its own path to perps just by trading it.
+Eden's share of each token's fees goes toward its perps listing. When the creator claims their fees, Eden's share drops by the same portion. Any token can still list.
 
 **2. Listings are earned.**
-Only graduated tokens with real, sustained volume qualify. No paid listings, no insiders picking winners. When a token's fund covers the listing cost, it is put toward listing that token with our perps partner.
+Graduated tokens with real, sustained volume are the ones we take to our perps partner. No insiders picking winners.
 
 **3. Everything is verifiable.**
 Each fund is calculated from on-chain fee events on Elysium. Anyone can recompute a token's fund from the chain and check it against what Eden shows.
